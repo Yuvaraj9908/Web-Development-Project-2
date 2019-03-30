@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Page</title>
+    <link rel="stylesheet" href="css/form.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  </head>
+  <body>
+    <div class="parent">
+      <!-- carrer objective -->
+      <div class="carrer">
+        <h1>Carrer Objective</h1>
+        <label for="carrer">
+        <input type="text" name="carrer" id="carrer" placeholder="carrer objective"></label>
+      </div>
+      <!-- personal information -->
+      <div class="details">
+        <h1>Personal Information</h1>
+         <input type="text" name="name" id="name" placeholder="Enter Name"><br><br>
+         <input type="number" name="age" id="age" placeholder="Enter age"><br><br>
+         <select id="gender">
+           <option>Select Gender</option>
+           <option>Male</option>
+           <option>Female</option>
+            <option>Other</option>
+         </select><br><br>
+         <input type="number" name="phno" id="phno" placeholder="Enter phone number"><br><br>
+         <input type="text" name="email" id="email" placeholder="Enter Email"><br><br>
+         <input type="text" name="address" id="address" placeholder="Enter address">
+      </div>
+      <!-- educational details -->
+      <div class="details">
+        <h1>Graduation Details</h1>
+        <label for="ginstitute">
+         <select id="ginstitute" >
+          <option>Select Institute</option>
+          <option>MITS</option>
+          <option>viswam</option>
+          <option>aditya</option>
+          <option>golden valley</option>
+         </select><br><br>
+        </label>
+        <!-- select  Branch -->
+        <select id="gbranch" >
+         <option>Select Branch</option>
+         <option>CSE</option>
+         <option>ECE</option>
+         <option>EEE</option>
+         <option>MECH</option>
+         <option>CIVIL</option>
+        </select> <br><br>
+        <!-- Graduation year -->
+        <select id="gyear" >
+         <option>Select Graduation year<option>
+         <option>2019</option>
+         <option>2020</option>
+         <option>2021</option>
+         <option>2022</option>
+        </select><br><br>
+        <!-- percentage -->
+        <input type="number" name="Percentage" id="gpercentage" placeholder="Enter Percentage">
+       </div>
+        <!-- intermediate -->
+        <div class="details">
+          <h1>Intermediate Details</h1>
+          <select id="iinstitute" >
+           <option>Select Institute</option>
+           <option>Narayana</option>
+           <option>sri chaitanya</option>
+           <option>Bharathi</option>
+           <option>krishna reddy</option>
+          </select><br><br>
+
+         <!-- select  Branch -->
+         <select id="ibranch" >
+          <option>Select Branch</option>
+          <option>MPC</option>
+          <option>BIPC</option>
+          <option>CEC</option>
+          <option>MEC</option>
+          <option>HEC</option>
+         </select> <br><br>
+         <!-- Graduation year -->
+         <select id="iyear" >
+          <option>Select Graduation year<option>
+          <option>2015</option>
+          <option>2016</option>
+          <option>2017</option>
+          <option>2018</option>
+         </select><br><br>
+         <!-- percentage -->
+         <input type="number" name="Percentage" id="ipercentage" placeholder="Enter Percentage">
+        </div>
+        <!-- ssc -->
+        <div class="details">
+          <h1>SSC Details</h1>
+          <select id="sinstitute" >
+           <option>Select Institute</option>
+           <option>Narayana</option>
+           <option>sri chaitanya</option>
+           <option>Rayalaseema</option>
+           <option>Master minds</option>
+          </select><br><br>
+
+         <!-- select  Branch -->
+         <select id="sbranch" >
+          <option>Select Type</option>
+          <option>SSC</option>
+          <option>CBSE</option>
+          <option>ICSE</option>
+         </select> <br><br>
+         <!-- Graduation year -->
+         <select id="syear" >
+          <option>Select Graduation year<option>
+          <option>2012</option>
+          <option>2013</option>
+          <option>2014</option>
+          <option>2015</option>
+         </select><br><br>
+         <!-- percentage -->
+         <input type="number" name="Percentage" id="spercentage" placeholder="Enter Percentage">
+        </div>
+        <!-- skills -->
+        <div class="skills">
+          <h1>Skills</h1>
+          <input type="text" name="skills" id="skills" placeholder="Enter Skills">
+        </div>
+        </div>
+      <br><br>
+       <button type="button" name="button" id="button" onclick="submitData()">Submit</button>
+
+
+  </body>
+  <script type="text/javascript" src="js/main.js">
+
+  </script>
+</html>

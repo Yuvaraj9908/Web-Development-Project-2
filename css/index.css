@@ -1,0 +1,40 @@
+body
+{
+  background: #280A35;
+}
+h1
+{
+  background: #F8C471;
+  font-size: 40px;
+  font-style: oblique;
+  text-align: center;
+}
+img
+{
+  background: #F8C471;
+  width:10%;
+  height:10%;
+  float: right;
+
+}
+.child
+{
+    width: 20%;
+    padding: 1%;
+    margin: 1%;
+    text-align: center;
+    border-radius: 3px solid yellow;
+    display: block;
+    background-color:#F8C471;
+    justify-content: space-around;
+}
+.child img{
+  width: 90px;
+  height: 90px;
+  text-align: justify;
+}
+.link
+{
+      text-decoration: none;
+      color: black;
+}
